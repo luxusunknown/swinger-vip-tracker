@@ -1409,6 +1409,26 @@
    "exit": 1.22,
    "pct": 20,
    "dollar": 20.4
+  },
+  {
+   "date": "2026-09-22",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 10.4,
+   "exit": 5.15,
+   "pct": 50.48,
+   "dollar": 525
+  },
+  {
+   "date": "2026-09-22",
+   "analyst": "SCOTT",
+   "ticker": "SKHY",
+   "win": true,
+   "entry": 4.8,
+   "exit": 6.48,
+   "pct": 35,
+   "dollar": 168
   }
  ],
  "dailySummaries": [
@@ -1587,6 +1607,14 @@
    "totalGainsPct": 2015,
    "avgGainsPct": 183.18,
    "totalProfit": 5040.15
+  },
+  {
+   "date": "2026-09-22",
+   "totalTrades": 2,
+   "winRate": 100,
+   "totalGainsPct": 85.48,
+   "avgGainsPct": 42.74,
+   "totalProfit": 693
   }
  ]
 }
