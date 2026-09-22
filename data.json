@@ -1,0 +1,1592 @@
+{
+ "trades": [
+  {
+   "date": "2026-08-20",
+   "analyst": "SWINGER",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 0.87,
+   "exit": 2.17,
+   "pct": 150,
+   "dollar": 130.5
+  },
+  {
+   "date": "2026-08-20",
+   "analyst": "SWINGER",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 1.74,
+   "exit": 2.44,
+   "pct": 40,
+   "dollar": 69.6
+  },
+  {
+   "date": "2026-08-20",
+   "analyst": "CLUTCH",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 1.68,
+   "exit": 3.06,
+   "pct": 82,
+   "dollar": 137.76
+  },
+  {
+   "date": "2026-08-20",
+   "analyst": "CLUTCH",
+   "ticker": "BABA",
+   "win": true,
+   "entry": 1.3,
+   "exit": 1.69,
+   "pct": 30,
+   "dollar": 39
+  },
+  {
+   "date": "2026-08-20",
+   "analyst": "SHOWTIME",
+   "ticker": "IBIT",
+   "win": true,
+   "entry": 1.66,
+   "exit": 2.7,
+   "pct": 62.65,
+   "dollar": 104
+  },
+  {
+   "date": "2026-08-20",
+   "analyst": "SCOTT",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 1.98,
+   "exit": 2.77,
+   "pct": 40,
+   "dollar": 79.2
+  },
+  {
+   "date": "2026-08-20",
+   "analyst": "SCOTT",
+   "ticker": "QCOM",
+   "win": false,
+   "entry": 2.25,
+   "exit": 1.8,
+   "pct": -20,
+   "dollar": -45
+  },
+  {
+   "date": "2026-08-20",
+   "analyst": "SCOTT",
+   "ticker": "TSLA",
+   "win": false,
+   "entry": 5.2,
+   "exit": 3.12,
+   "pct": -40,
+   "dollar": -208
+  },
+  {
+   "date": "2026-08-20",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.83,
+   "exit": 0.75,
+   "pct": -9.64,
+   "dollar": -8
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SWINGER",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 0.93,
+   "exit": 3.02,
+   "pct": 224.73,
+   "dollar": 209
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 4.3,
+   "exit": 10.75,
+   "pct": 150,
+   "dollar": 645
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 3.41,
+   "exit": 8.18,
+   "pct": 140,
+   "dollar": 477.4
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SCOTT",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 1.98,
+   "exit": 3.17,
+   "pct": 60,
+   "dollar": 118.8
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SCOTT",
+   "ticker": "RIOT",
+   "win": true,
+   "entry": 2.51,
+   "exit": 3.51,
+   "pct": 40,
+   "dollar": 100.4
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SCOTT",
+   "ticker": "CIFR",
+   "win": true,
+   "entry": 1.04,
+   "exit": 1.4,
+   "pct": 35,
+   "dollar": 36.4
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SCOTT",
+   "ticker": "AMZN",
+   "win": false,
+   "entry": 5.55,
+   "exit": 3.05,
+   "pct": -45,
+   "dollar": -249.75
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SCOTT",
+   "ticker": "VERA",
+   "win": false,
+   "entry": 4.3,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -430
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "CLUTCH",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 1.68,
+   "exit": 3.36,
+   "pct": 100,
+   "dollar": 168
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "CLUTCH",
+   "ticker": "BABA",
+   "win": false,
+   "entry": 1.3,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -130
+  },
+  {
+   "date": "2026-08-21",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 2.49,
+   "exit": 0,
+   "pct": 100,
+   "dollar": 249
+  },
+  {
+   "date": "2026-08-24",
+   "analyst": "SHOWTIME",
+   "ticker": "IREN",
+   "win": true,
+   "entry": 1,
+   "exit": 0.22,
+   "pct": 78,
+   "dollar": 78
+  },
+  {
+   "date": "2026-08-24",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.98,
+   "exit": 1.47,
+   "pct": 50,
+   "dollar": 49
+  },
+  {
+   "date": "2026-08-24",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 2,
+   "exit": 1.4,
+   "pct": 30,
+   "dollar": 60
+  },
+  {
+   "date": "2026-08-24",
+   "analyst": "SCOTT",
+   "ticker": "JNJ",
+   "win": true,
+   "entry": 2.95,
+   "exit": 3.69,
+   "pct": 25,
+   "dollar": 73.75
+  },
+  {
+   "date": "2026-08-24",
+   "analyst": "SWINGER",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 1.1,
+   "exit": 0.88,
+   "pct": -20,
+   "dollar": -22
+  },
+  {
+   "date": "2026-08-25",
+   "analyst": "SHOWTIME",
+   "ticker": "AAOI",
+   "win": true,
+   "entry": 2.82,
+   "exit": 1.68,
+   "pct": 40.43,
+   "dollar": 114
+  },
+  {
+   "date": "2026-08-25",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.66,
+   "exit": 0.86,
+   "pct": 30.3,
+   "dollar": 20
+  },
+  {
+   "date": "2026-08-25",
+   "analyst": "SCOTT",
+   "ticker": "JNJ",
+   "win": true,
+   "entry": 2.95,
+   "exit": 3.69,
+   "pct": 25,
+   "dollar": 73.75
+  },
+  {
+   "date": "2026-08-25",
+   "analyst": "SCOTT",
+   "ticker": "RIOT",
+   "win": true,
+   "entry": 2.75,
+   "exit": 3.3,
+   "pct": 20,
+   "dollar": 55
+  },
+  {
+   "date": "2026-08-25",
+   "analyst": "SCOTT",
+   "ticker": "PG",
+   "win": false,
+   "entry": 2.2,
+   "exit": 1.69,
+   "pct": -23,
+   "dollar": -50.6
+  },
+  {
+   "date": "2026-08-25",
+   "analyst": "CLUTCH",
+   "ticker": "SPX",
+   "win": true,
+   "entry": 6.2,
+   "exit": 7,
+   "pct": 12.9,
+   "dollar": 80
+  },
+  {
+   "date": "2026-08-25",
+   "analyst": "SWINGER",
+   "ticker": "MSTR",
+   "win": false,
+   "entry": 4.63,
+   "exit": 3.94,
+   "pct": -15,
+   "dollar": -69.45
+  },
+  {
+   "date": "2026-08-26",
+   "analyst": "CLUTCH",
+   "ticker": "SPX",
+   "win": true,
+   "entry": 5.3,
+   "exit": 8.48,
+   "pct": 60,
+   "dollar": 318
+  },
+  {
+   "date": "2026-08-26",
+   "analyst": "SHOWTIME",
+   "ticker": "SKHY",
+   "win": true,
+   "entry": 2.71,
+   "exit": 1.5,
+   "pct": 44.65,
+   "dollar": 121
+  },
+  {
+   "date": "2026-08-26",
+   "analyst": "SHOWTIME",
+   "ticker": "RDDT",
+   "win": false,
+   "entry": 6.7,
+   "exit": 5.05,
+   "pct": -24.63,
+   "dollar": -165
+  },
+  {
+   "date": "2026-08-26",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.87,
+   "exit": 1.18,
+   "pct": 35.63,
+   "dollar": 31
+  },
+  {
+   "date": "2026-08-26",
+   "analyst": "SCOTT",
+   "ticker": "RDDT",
+   "win": true,
+   "entry": 6.39,
+   "exit": 8,
+   "pct": 25.2,
+   "dollar": 161
+  },
+  {
+   "date": "2026-08-26",
+   "analyst": "SWINGER",
+   "ticker": "SOFI",
+   "win": false,
+   "entry": 0.39,
+   "exit": 0.25,
+   "pct": -35,
+   "dollar": -13.65
+  },
+  {
+   "date": "2026-08-26",
+   "analyst": "SWINGER",
+   "ticker": "AVGO",
+   "win": false,
+   "entry": 5.7,
+   "exit": 3.42,
+   "pct": -40,
+   "dollar": -228
+  },
+  {
+   "date": "2026-08-26",
+   "analyst": "SWINGER",
+   "ticker": "CIFR",
+   "win": false,
+   "entry": 0.53,
+   "exit": 0.32,
+   "pct": -40,
+   "dollar": -21.2
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "SCOTT",
+   "ticker": "IGV",
+   "win": true,
+   "entry": 2.9,
+   "exit": 6.82,
+   "pct": 135,
+   "dollar": 391.5
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "SCOTT",
+   "ticker": "ARM",
+   "win": true,
+   "entry": 4.4,
+   "exit": 6.6,
+   "pct": 50,
+   "dollar": 220
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "SCOTT",
+   "ticker": "JPM",
+   "win": false,
+   "entry": 6.4,
+   "exit": 5.12,
+   "pct": -20,
+   "dollar": -128
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "SCOTT",
+   "ticker": "PCG",
+   "win": false,
+   "entry": 0.73,
+   "exit": 0.51,
+   "pct": -30,
+   "dollar": -21.9
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "SHOWTIME",
+   "ticker": "BE",
+   "win": true,
+   "entry": 7.6,
+   "exit": 3.2,
+   "pct": 57.89,
+   "dollar": 440
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 1.36,
+   "exit": 0.68,
+   "pct": 50,
+   "dollar": 68
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "SHOWTIME",
+   "ticker": "AVGO",
+   "win": true,
+   "entry": 7.2,
+   "exit": 3.9,
+   "pct": 45.83,
+   "dollar": 330
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 1.07,
+   "exit": 1.24,
+   "pct": 15.89,
+   "dollar": 17
+  },
+  {
+   "date": "2026-08-27",
+   "analyst": "CLUTCH",
+   "ticker": "RIOT",
+   "win": false,
+   "entry": 0.52,
+   "exit": 0.26,
+   "pct": -50,
+   "dollar": -26
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SWINGER",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 0.51,
+   "exit": 0,
+   "pct": 100,
+   "dollar": 51
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SWINGER",
+   "ticker": "TSLA",
+   "win": false,
+   "entry": 3.15,
+   "exit": 2.21,
+   "pct": -30,
+   "dollar": -94.5
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SCOTT",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 4.47,
+   "exit": 8.05,
+   "pct": 80,
+   "dollar": 357.6
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SCOTT",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 2.65,
+   "exit": 3.18,
+   "pct": 20,
+   "dollar": 53
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SCOTT",
+   "ticker": "INTC",
+   "win": true,
+   "entry": 3.75,
+   "exit": 4.5,
+   "pct": 20,
+   "dollar": 75
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SCOTT",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 5.1,
+   "exit": 5.61,
+   "pct": 10,
+   "dollar": 51
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 7.09,
+   "exit": 3.63,
+   "pct": 48.8,
+   "dollar": 346
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 5.3,
+   "exit": 3.55,
+   "pct": 33.02,
+   "dollar": 175
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "SHOWTIME",
+   "ticker": "IREN",
+   "win": true,
+   "entry": 4.56,
+   "exit": 5.65,
+   "pct": 23.9,
+   "dollar": -109
+  },
+  {
+   "date": "2026-08-28",
+   "analyst": "CLUTCH",
+   "ticker": "AMD",
+   "win": false,
+   "entry": 1.75,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -175
+  },
+  {
+   "date": "2026-08-31",
+   "analyst": "SCOTT",
+   "ticker": "VLO",
+   "win": true,
+   "entry": 10.5,
+   "exit": 14.7,
+   "pct": 40,
+   "dollar": 420
+  },
+  {
+   "date": "2026-08-31",
+   "analyst": "SCOTT",
+   "ticker": "IREN",
+   "win": true,
+   "entry": 0.76,
+   "exit": 0.91,
+   "pct": 20,
+   "dollar": 15.2
+  },
+  {
+   "date": "2026-08-31",
+   "analyst": "SCOTT",
+   "ticker": "GOOGL",
+   "win": false,
+   "entry": 5.75,
+   "exit": 4.03,
+   "pct": -30,
+   "dollar": -172.5
+  },
+  {
+   "date": "2026-08-31",
+   "analyst": "SWINGER",
+   "ticker": "MU",
+   "win": false,
+   "entry": 2.7,
+   "exit": 1.35,
+   "pct": -50,
+   "dollar": -135
+  },
+  {
+   "date": "2026-08-31",
+   "analyst": "CLUTCH",
+   "ticker": "SMR",
+   "win": false,
+   "entry": 0.43,
+   "exit": 0.11,
+   "pct": -75,
+   "dollar": -32.25
+  },
+  {
+   "date": "2026-09-01",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.95,
+   "exit": 1.67,
+   "pct": 75.79,
+   "dollar": 72
+  },
+  {
+   "date": "2026-09-01",
+   "analyst": "SCOTT",
+   "ticker": "VLO",
+   "win": true,
+   "entry": 10.5,
+   "exit": 15.75,
+   "pct": 50,
+   "dollar": 525
+  },
+  {
+   "date": "2026-09-01",
+   "analyst": "SCOTT",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 4.8,
+   "exit": 2.16,
+   "pct": -55,
+   "dollar": -2.64
+  },
+  {
+   "date": "2026-09-01",
+   "analyst": "SCOTT",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 5.6,
+   "exit": 0.84,
+   "pct": -85,
+   "dollar": -476
+  },
+  {
+   "date": "2026-09-01",
+   "analyst": "SWINGER",
+   "ticker": "ZETA",
+   "win": true,
+   "entry": 1.53,
+   "exit": 2.29,
+   "pct": 50,
+   "dollar": 76.5
+  },
+  {
+   "date": "2026-09-01",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 10.57,
+   "exit": 8.32,
+   "pct": 21.29,
+   "dollar": 225
+  },
+  {
+   "date": "2026-09-01",
+   "analyst": "SHOWTIME",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 3.65,
+   "exit": 4.4,
+   "pct": 20.55,
+   "dollar": 75
+  },
+  {
+   "date": "2026-09-01",
+   "analyst": "SHOWTIME",
+   "ticker": "IREN",
+   "win": true,
+   "entry": 2,
+   "exit": 1.79,
+   "pct": 10.5,
+   "dollar": 21
+  },
+  {
+   "date": "2026-09-02",
+   "analyst": "SCOTT",
+   "ticker": "JNJ",
+   "win": true,
+   "entry": 2.1,
+   "exit": 5.25,
+   "pct": 150,
+   "dollar": 315
+  },
+  {
+   "date": "2026-09-02",
+   "analyst": "SWINGER",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.84,
+   "exit": 1.09,
+   "pct": 30,
+   "dollar": 25.2
+  },
+  {
+   "date": "2026-09-02",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 1.04,
+   "exit": 0.91,
+   "pct": -12.5,
+   "dollar": -0.13
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "SWINGER",
+   "ticker": "MSTR",
+   "win": true,
+   "entry": 1.99,
+   "exit": 18.71,
+   "pct": 840,
+   "dollar": 1671.6
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "SWINGER",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 0.42,
+   "exit": 1.11,
+   "pct": 165,
+   "dollar": 69.3
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 4.3,
+   "exit": 20.21,
+   "pct": 370,
+   "dollar": 1591
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 4,
+   "exit": 16.28,
+   "pct": 307,
+   "dollar": 1228
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 4.25,
+   "exit": 8.71,
+   "pct": 105,
+   "dollar": 446.25
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "SCOTT",
+   "ticker": "NVDA",
+   "win": true,
+   "entry": 4,
+   "exit": 6.8,
+   "pct": 70,
+   "dollar": 280
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "SCOTT",
+   "ticker": "CEG",
+   "win": true,
+   "entry": 7.9,
+   "exit": 12.64,
+   "pct": 60,
+   "dollar": 474
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "CLUTCH",
+   "ticker": "GLD",
+   "win": true,
+   "entry": 1.38,
+   "exit": 5.24,
+   "pct": 280,
+   "dollar": 386.4
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "SHOWTIME",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 4.6,
+   "exit": 11.96,
+   "pct": 160,
+   "dollar": 736
+  },
+  {
+   "date": "2026-09-03",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.8,
+   "exit": 0.58,
+   "pct": -27.5,
+   "dollar": -0.22
+  },
+  {
+   "date": "2026-09-04",
+   "analyst": "SWINGER",
+   "ticker": "SLV",
+   "win": true,
+   "entry": 0.52,
+   "exit": 0,
+   "pct": 100,
+   "dollar": 52
+  },
+  {
+   "date": "2026-09-04",
+   "analyst": "SWINGER",
+   "ticker": "IREN",
+   "win": true,
+   "entry": 0.65,
+   "exit": 0,
+   "pct": 100,
+   "dollar": 65
+  },
+  {
+   "date": "2026-09-04",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 5.9,
+   "exit": 2.3,
+   "pct": 61.02,
+   "dollar": 360
+  },
+  {
+   "date": "2026-09-04",
+   "analyst": "SCOTT",
+   "ticker": "JPM",
+   "win": false,
+   "entry": 0.7,
+   "exit": 0.21,
+   "pct": -70,
+   "dollar": -49
+  },
+  {
+   "date": "2026-09-08",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.75,
+   "exit": 1.5,
+   "pct": 100,
+   "dollar": 75
+  },
+  {
+   "date": "2026-09-08",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 23.22,
+   "exit": 4.45,
+   "pct": 80.84,
+   "dollar": 1877
+  },
+  {
+   "date": "2026-09-08",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 31.17,
+   "exit": 6.96,
+   "pct": 77.67,
+   "dollar": 2421
+  },
+  {
+   "date": "2026-09-08",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 10.74,
+   "exit": 2.6,
+   "pct": 75.79,
+   "dollar": 814
+  },
+  {
+   "date": "2026-09-08",
+   "analyst": "SHOWTIME",
+   "ticker": "AAOI",
+   "win": true,
+   "entry": 1.92,
+   "exit": 0.73,
+   "pct": 61.98,
+   "dollar": 119
+  },
+  {
+   "date": "2026-09-08",
+   "analyst": "SCOTT",
+   "ticker": "SKHY",
+   "win": true,
+   "entry": 13,
+   "exit": 18.2,
+   "pct": 40,
+   "dollar": 520
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "SCOTT",
+   "ticker": "AMD",
+   "win": true,
+   "entry": 5,
+   "exit": 10,
+   "pct": 100,
+   "dollar": 500
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "SCOTT",
+   "ticker": "SKHY",
+   "win": true,
+   "entry": 13,
+   "exit": 23.4,
+   "pct": 80,
+   "dollar": 1040
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "SCOTT",
+   "ticker": "SPCX",
+   "win": false,
+   "entry": 2.1,
+   "exit": 0.84,
+   "pct": -60,
+   "dollar": -126
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "SHOWTIME",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 0.5,
+   "exit": 0.11,
+   "pct": 78,
+   "dollar": 39
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "SHOWTIME",
+   "ticker": "CRWV",
+   "win": true,
+   "entry": 1.07,
+   "exit": 0.38,
+   "pct": 64.49,
+   "dollar": 69
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "SHOWTIME",
+   "ticker": "ASTS",
+   "win": true,
+   "entry": 0.67,
+   "exit": 0.38,
+   "pct": 43.28,
+   "dollar": 29
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.78,
+   "exit": 0.6,
+   "pct": -23.08,
+   "dollar": -0.18
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "SWINGER",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.9,
+   "exit": 0.63,
+   "pct": -30,
+   "dollar": -27
+  },
+  {
+   "date": "2026-09-09",
+   "analyst": "SWINGER",
+   "ticker": "RKLB",
+   "win": false,
+   "entry": 1.93,
+   "exit": 0.87,
+   "pct": -55,
+   "dollar": -1.06
+  },
+  {
+   "date": "2026-09-10",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 2.33,
+   "exit": 1,
+   "pct": 57.08,
+   "dollar": 133
+  },
+  {
+   "date": "2026-09-11",
+   "analyst": "SHOWTIME",
+   "ticker": "IREN",
+   "win": true,
+   "entry": 1.05,
+   "exit": 0.48,
+   "pct": 54.29,
+   "dollar": 57
+  },
+  {
+   "date": "2026-09-11",
+   "analyst": "SCOTT",
+   "ticker": "C",
+   "win": true,
+   "entry": 3.15,
+   "exit": 3.94,
+   "pct": 25,
+   "dollar": 78.75
+  },
+  {
+   "date": "2026-09-11",
+   "analyst": "CLUTCH",
+   "ticker": "GOOGL",
+   "win": false,
+   "entry": 3.25,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -325
+  },
+  {
+   "date": "2026-09-14",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 0.82,
+   "exit": 4.31,
+   "pct": 425.61,
+   "dollar": 349
+  },
+  {
+   "date": "2026-09-14",
+   "analyst": "SWINGER",
+   "ticker": "PANW",
+   "win": true,
+   "entry": 5.73,
+   "exit": 25.79,
+   "pct": 350,
+   "dollar": 2005.5
+  },
+  {
+   "date": "2026-09-14",
+   "analyst": "SWINGER",
+   "ticker": "SLV",
+   "win": false,
+   "entry": 1.19,
+   "exit": 0.59,
+   "pct": -50,
+   "dollar": -59.5
+  },
+  {
+   "date": "2026-09-14",
+   "analyst": "CLUTCH",
+   "ticker": "IBM",
+   "win": true,
+   "entry": 4.2,
+   "exit": 8.4,
+   "pct": 100,
+   "dollar": 420
+  },
+  {
+   "date": "2026-09-14",
+   "analyst": "CLUTCH",
+   "ticker": "GOOGL",
+   "win": true,
+   "entry": 8.4,
+   "exit": 13.02,
+   "pct": 55,
+   "dollar": 462
+  },
+  {
+   "date": "2026-09-14",
+   "analyst": "SCOTT",
+   "ticker": "C",
+   "win": false,
+   "entry": 3.15,
+   "exit": 2.05,
+   "pct": -35,
+   "dollar": -110.25
+  },
+  {
+   "date": "2026-09-14",
+   "analyst": "SCOTT",
+   "ticker": "CEG",
+   "win": false,
+   "entry": 11.3,
+   "exit": 5.08,
+   "pct": -55,
+   "dollar": -621.5
+  },
+  {
+   "date": "2026-09-15",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.73,
+   "exit": 1.83,
+   "pct": 150.68,
+   "dollar": 110
+  },
+  {
+   "date": "2026-09-15",
+   "analyst": "SWINGER",
+   "ticker": "ZETA",
+   "win": true,
+   "entry": 0.5,
+   "exit": 0.75,
+   "pct": 50,
+   "dollar": 25
+  },
+  {
+   "date": "2026-09-15",
+   "analyst": "SWINGER",
+   "ticker": "HOOD",
+   "win": false,
+   "entry": 3.7,
+   "exit": 1.4,
+   "pct": -62.16,
+   "dollar": -230
+  },
+  {
+   "date": "2026-09-15",
+   "analyst": "SCOTT",
+   "ticker": "ARM",
+   "win": false,
+   "entry": 4.2,
+   "exit": 3.15,
+   "pct": -25,
+   "dollar": -105
+  },
+  {
+   "date": "2026-09-16",
+   "analyst": "SWINGER",
+   "ticker": "CIFR",
+   "win": true,
+   "entry": 0.42,
+   "exit": 0.9,
+   "pct": 115,
+   "dollar": 48.3
+  },
+  {
+   "date": "2026-09-16",
+   "analyst": "SCOTT",
+   "ticker": "ARM",
+   "win": false,
+   "entry": 4.9,
+   "exit": 4.17,
+   "pct": -15,
+   "dollar": -73.5
+  },
+  {
+   "date": "2026-09-16",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": false,
+   "entry": 5.9,
+   "exit": 2.95,
+   "pct": -50,
+   "dollar": -295
+  },
+  {
+   "date": "2026-09-17",
+   "analyst": "SHOWTIME",
+   "ticker": "CRDO",
+   "win": true,
+   "entry": 5.4,
+   "exit": 2.95,
+   "pct": 45.37,
+   "dollar": 245
+  },
+  {
+   "date": "2026-09-17",
+   "analyst": "CLUTCH",
+   "ticker": "GOOGL",
+   "win": true,
+   "entry": 1,
+   "exit": 1.4,
+   "pct": 40,
+   "dollar": 40
+  },
+  {
+   "date": "2026-09-17",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.88,
+   "exit": 0.71,
+   "pct": -19.32,
+   "dollar": -0.17
+  },
+  {
+   "date": "2026-09-18",
+   "analyst": "CLUTCH",
+   "ticker": "GOOGL",
+   "win": true,
+   "entry": 1,
+   "exit": 8.5,
+   "pct": 750,
+   "dollar": 750
+  },
+  {
+   "date": "2026-09-18",
+   "analyst": "SWINGER",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 5.13,
+   "exit": 10.77,
+   "pct": 110,
+   "dollar": 564.3
+  },
+  {
+   "date": "2026-09-18",
+   "analyst": "SWINGER",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 2.9,
+   "exit": 3.77,
+   "pct": 30,
+   "dollar": 87
+  },
+  {
+   "date": "2026-09-18",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.78,
+   "exit": 1.33,
+   "pct": 70.51,
+   "dollar": 55
+  },
+  {
+   "date": "2026-09-18",
+   "analyst": "SHOWTIME",
+   "ticker": "MU",
+   "win": true,
+   "entry": 12.5,
+   "exit": 4.45,
+   "pct": 64.4,
+   "dollar": 805
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 0.85,
+   "exit": 9.35,
+   "pct": 1000,
+   "dollar": 850
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "SWINGER",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 4.1,
+   "exit": 20.5,
+   "pct": 400,
+   "dollar": 1640
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "SWINGER",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 5.13,
+   "exit": 14.13,
+   "pct": 175.44,
+   "dollar": 900
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "SWINGER",
+   "ticker": "CIFR",
+   "win": true,
+   "entry": 1.3,
+   "exit": 1.56,
+   "pct": 20,
+   "dollar": 26
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "SCOTT",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 5.1,
+   "exit": 10.2,
+   "pct": 100,
+   "dollar": 510
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 4.35,
+   "exit": 7.18,
+   "pct": 65,
+   "dollar": 282.75
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "SHOWTIME",
+   "ticker": "HOOD",
+   "win": true,
+   "entry": 5.13,
+   "exit": 8.33,
+   "pct": 62.38,
+   "dollar": 3.2
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 8.3,
+   "exit": 3.6,
+   "pct": 56.63,
+   "dollar": 470
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 4.05,
+   "exit": 1.8,
+   "pct": 55.56,
+   "dollar": 225
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "CLUTCH",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 1.88,
+   "exit": 3.01,
+   "pct": 60,
+   "dollar": 112.8
+  },
+  {
+   "date": "2026-09-21",
+   "analyst": "CLUTCH",
+   "ticker": "TSLA",
+   "win": true,
+   "entry": 1.02,
+   "exit": 1.22,
+   "pct": 20,
+   "dollar": 20.4
+  }
+ ],
+ "dailySummaries": [
+  {
+   "date": "2026-08-20",
+   "totalTrades": 9,
+   "winRate": 66.67,
+   "totalGainsPct": 335.01,
+   "avgGainsPct": 37.22,
+   "totalProfit": 299.06
+  },
+  {
+   "date": "2026-08-21",
+   "totalTrades": 11,
+   "winRate": 72.73,
+   "totalGainsPct": 604.73,
+   "avgGainsPct": 54.98,
+   "totalProfit": 1194.25
+  },
+  {
+   "date": "2026-08-24",
+   "totalTrades": 5,
+   "winRate": 80,
+   "totalGainsPct": 163,
+   "avgGainsPct": 32.6,
+   "totalProfit": 238.75
+  },
+  {
+   "date": "2026-08-25",
+   "totalTrades": 7,
+   "winRate": 71.43,
+   "totalGainsPct": 90.63,
+   "avgGainsPct": 12.95,
+   "totalProfit": 222.7
+  },
+  {
+   "date": "2026-08-26",
+   "totalTrades": 8,
+   "winRate": 50,
+   "totalGainsPct": 25.85,
+   "avgGainsPct": 3.23,
+   "totalProfit": 203.15
+  },
+  {
+   "date": "2026-08-27",
+   "totalTrades": 9,
+   "winRate": 66.67,
+   "totalGainsPct": 254.62,
+   "avgGainsPct": 28.29,
+   "totalProfit": 1290.6
+  },
+  {
+   "date": "2026-08-28",
+   "totalTrades": 10,
+   "winRate": 80,
+   "totalGainsPct": 205.72,
+   "avgGainsPct": 20.57,
+   "totalProfit": 730.1
+  },
+  {
+   "date": "2026-08-31",
+   "totalTrades": 5,
+   "winRate": 40,
+   "totalGainsPct": -95,
+   "avgGainsPct": -19,
+   "totalProfit": 95.45
+  },
+  {
+   "date": "2026-09-01",
+   "totalTrades": 8,
+   "winRate": 75,
+   "totalGainsPct": 88.12,
+   "avgGainsPct": 11.02,
+   "totalProfit": 515.86
+  },
+  {
+   "date": "2026-09-02",
+   "totalTrades": 3,
+   "winRate": 66.67,
+   "totalGainsPct": 167.5,
+   "avgGainsPct": 55.83,
+   "totalProfit": 340.07
+  },
+  {
+   "date": "2026-09-03",
+   "totalTrades": 10,
+   "winRate": 90,
+   "totalGainsPct": 2329.5,
+   "avgGainsPct": 232.95,
+   "totalProfit": 6882.33
+  },
+  {
+   "date": "2026-09-04",
+   "totalTrades": 4,
+   "winRate": 75,
+   "totalGainsPct": 191.02,
+   "avgGainsPct": 47.75,
+   "totalProfit": 428
+  },
+  {
+   "date": "2026-09-08",
+   "totalTrades": 6,
+   "winRate": 100,
+   "totalGainsPct": 436.28,
+   "avgGainsPct": 72.71,
+   "totalProfit": 5826
+  },
+  {
+   "date": "2026-09-09",
+   "totalTrades": 9,
+   "winRate": 55.56,
+   "totalGainsPct": 197.69,
+   "avgGainsPct": 21.97,
+   "totalProfit": 1522.76
+  },
+  {
+   "date": "2026-09-10",
+   "totalTrades": 1,
+   "winRate": 100,
+   "totalGainsPct": 57.08,
+   "avgGainsPct": 57.08,
+   "totalProfit": 133
+  },
+  {
+   "date": "2026-09-11",
+   "totalTrades": 3,
+   "winRate": 66.67,
+   "totalGainsPct": -20.71,
+   "avgGainsPct": -6.9,
+   "totalProfit": -189.25
+  },
+  {
+   "date": "2026-09-14",
+   "totalTrades": 7,
+   "winRate": 57.14,
+   "totalGainsPct": 790.61,
+   "avgGainsPct": 112.94,
+   "totalProfit": 2445.25
+  },
+  {
+   "date": "2026-09-15",
+   "totalTrades": 4,
+   "winRate": 50,
+   "totalGainsPct": 113.52,
+   "avgGainsPct": 28.38,
+   "totalProfit": -200
+  },
+  {
+   "date": "2026-09-16",
+   "totalTrades": 3,
+   "winRate": 33.33,
+   "totalGainsPct": 50,
+   "avgGainsPct": 16.67,
+   "totalProfit": -320.2
+  },
+  {
+   "date": "2026-09-17",
+   "totalTrades": 3,
+   "winRate": 66.67,
+   "totalGainsPct": 66.05,
+   "avgGainsPct": 22.02,
+   "totalProfit": 284.83
+  },
+  {
+   "date": "2026-09-18",
+   "totalTrades": 5,
+   "winRate": 100,
+   "totalGainsPct": 1024.91,
+   "avgGainsPct": 204.98,
+   "totalProfit": 2261.3
+  },
+  {
+   "date": "2026-09-21",
+   "totalTrades": 11,
+   "winRate": 100,
+   "totalGainsPct": 2015,
+   "avgGainsPct": 183.18,
+   "totalProfit": 5040.15
+  }
+ ]
+}
