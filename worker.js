@@ -32,6 +32,9 @@ export default {
     if (url.pathname === '/api/publish' && request.method === 'POST') {
       return handlePublish(request, env);
     }
+    if (url.pathname === '/api/ingest' && request.method === 'POST') {
+      return handleIngest(request, env);
+    }
 
     // Anything else under /api/* that doesn't match a known route.
     if (url.pathname.startsWith('/api/')) {
@@ -175,6 +178,82 @@ async function handlePublish(request, env) {
     }
     const commitUrl = putJson && putJson.commit && putJson.commit.html_url;
     return jsonResponse({ ok: true, commitUrl: commitUrl || null });
+  } catch (e) {
+    return jsonResponse({ ok: false, error: 'Could not reach GitHub API: ' + e.message }, 502);
+  }
+}
+
+async function handleIngest(request, env) {
+  const authHeader = request.headers.get('Authorization') || '';
+  const token = authHeader.replace(/^Bearer\s+/i, '').trim();
+  const secret = env.INGEST_SECRET || '';
+
+  if (!secret || !timingSafeEqual(token, secret)) {
+    return jsonResponse({ ok: false, error: 'Unauthorized ingest secret.' }, 401);
+  }
+
+  let body;
+  try {
+    body = await request.json();
+  } catch {
+    return jsonResponse({ ok: false, error: 'Bad request body.' }, 400);
+  }
+
+  if (!body || !Array.isArray(body.trades)) {
+    return jsonResponse({ ok: false, error: 'Missing trades array.' }, 400);
+  }
+
+  const ghToken = env.GITHUB_TOKEN || '';
+  const ghRepo = env.GITHUB_REPO || '';
+  const ghBranch = env.GITHUB_BRANCH || 'main';
+  const ghPath = env.GITHUB_DATA_PATH || 'data.json';
+
+  if (!ghToken || !ghRepo) {
+    return jsonResponse({ ok: false, error: 'Server missing GITHUB_TOKEN / GITHUB_REPO env vars.' }, 500);
+  }
+
+  const payloadStr = JSON.stringify({ trades: body.trades, dailySummaries: body.dailySummaries || [] }, null, 1);
+  const contentB64 = toBase64Utf8(payloadStr);
+  const apiUrl = `https://api.github.com/repos/${ghRepo}/contents/${encodeURIComponent(ghPath)}`;
+  const ghHeaders = {
+    Authorization: `Bearer ${ghToken}`,
+    Accept: 'application/vnd.github+json',
+    'User-Agent': 'swinger-tracker',
+    'X-GitHub-Api-Version': '2022-11-28'
+  };
+
+  let sha;
+  try {
+    const getRes = await fetch(`${apiUrl}?ref=${encodeURIComponent(ghBranch)}`, { headers: ghHeaders });
+    if (getRes.status === 200) {
+      const j = await getRes.json();
+      sha = j.sha;
+    }
+  } catch (e) {
+    return jsonResponse({ ok: false, error: 'Could not reach GitHub API: ' + e.message }, 502);
+  }
+
+  try {
+    const putRes = await fetch(apiUrl, {
+      method: 'PUT',
+      headers: { ...ghHeaders, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        message: `Sync trades from Discord bot (${new Date().toISOString()})`,
+        content: contentB64,
+        branch: ghBranch,
+        ...(sha ? { sha } : {})
+      })
+    });
+    const putJson = await putRes.json().catch(() => ({}));
+    if (putRes.status !== 200 && putRes.status !== 201) {
+      return jsonResponse({ ok: false, error: `GitHub API error (${putRes.status}): ${putJson.message || 'unknown'}` }, 502);
+    }
+    return jsonResponse({
+      ok: true,
+      commitUrl: putJson?.commit?.html_url || null,
+      totalTradesCount: body.trades.length,
+      newTradesCount: body.trades.length
+    });
   } catch (e) {
     return jsonResponse({ ok: false, error: 'Could not reach GitHub API: ' + e.message }, 502);
   }
