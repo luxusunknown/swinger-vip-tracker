@@ -1,0 +1,12 @@
+# Environment files
+.env
+.env.local
+*.env
+dcbot/.env
+
+# Dependencies
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
