@@ -24,10 +24,12 @@
     // Preserve the :name: part BEFORE stripping all HTML tags so that
     // truncation markers like :GIFCryptoRiseUp: still work after stripping.
     let text = raw.replace(/<a?:([A-Za-z0-9_]+):\d+>/g, ':$1:');
-    // Strip remaining HTML tags, decode entities, and strip Discord markdown formatting (*, `, ~).
+    // Convert structural HTML elements to spaces/breaks before stripping tags
+    text = text.replace(/<\/?(?:div|p|br|hr|tr|li)[^>]*>/gi, ' \n ');
     text = text.replace(/<[^>]+>/g, ' ');
     text = decodeEntities(text);
     text = text.replace(/[*`~]/g, '');
+    text = text.replace(/[—\-]{3,}/g, ' ');
     text = text.replace(/\s+/g, ' ');
     return text;
   }
@@ -55,11 +57,26 @@
     return null;
   }
 
-  const DAY_HEADER_RE = /(?:TRADE WITH MORDY|MR\.?\s*SWINGER)\s*DAILY RECAP\s*\|\s*([A-Z]+\s+\d+,\s*\d+|\d+\s+[A-Z]+,?\s*\d+)/gi;
-  const CALL_HEADER_RE = /([A-Z][A-Z. ]*?) CALLS:/gi;
-  const TRADE_FULL_RE = /(🟩|🟥)\s*\$([A-Z]+)\s*-?\s*([^\-]*?)@\s*([\d.]+)\s*-->\s*([\d.]+)\s*\|\s*([+-]?[\d,]+\.\d+)%\s*\|\s*(-?\$?[\d,]+\.\d+)/gu;
-  const TRADE_NODOLLAR_RE = /(🟩|🟥)\s*\$([A-Z]+)\s*-?\s*([^\-]*?)@\s*([\d.]+)\s*-->\s*([\d.]+)\s*\|\s*([+-]?[\d,]+\.\d+)%/gu;
-  const TRADE_BARE_RE = /(🟩|🟥)\s*\$([A-Z]+)\s*[^|🟩🟥]*?\|\s*([+-]?[\d,]+\.\d+)%/gu;
+  const DAY_HEADER_RE = /(?:SHOWTIME\s*TRADES|TRADE WITH MORDY|MR\.?\s*SWINGER)?\s*DAILY RECAP\s*\|\s*([A-Za-z0-9, ]+?\d{4})/gi;
+  const CALL_HEADER_RE = /([A-Za-z0-9 ._♛]+?)\s+CALLS:/gi;
+  const TRADE_FULL_RE = /(🟩|🟥)\s*\$([A-Za-z0-9]+)\s*-?\s*([^\-]*?)@\s*([\d.]+)\s*-->\s*([\d.]+)\s*\|\s*([+-]?[\d,]+\.\d+)%\s*\|\s*(-?\$?[\d,]+\.\d+)/gu;
+  const TRADE_NODOLLAR_RE = /(🟩|🟥)\s*\$([A-Za-z0-9]+)\s*-?\s*([^\-]*?)@\s*([\d.]+)\s*-->\s*([\d.]+)\s*\|\s*([+-]?[\d,]+\.\d+)%/gu;
+  const TRADE_BARE_RE = /(🟩|🟥)\s*\$([A-Za-z0-9]+)\s*[^|🟩🟥🟨]*?\|\s*([+-]?[\d,]+(?:\.\d+)?)%/gu;
+  const TRADE_SHOWTIME_PCT_RE = /(🟩|🟥|🟨)\s*(?:\$([A-Za-z0-9]+)|([A-Za-z0-9]+))\b[^|🟩🟥🟨\n]*?\|\s*([+-]?[\d,]+(?:\.\d+)?)%/gu;
+  const TRADE_SHOWTIME_TEXT_RE = /(🟩|🟥|🟨)\s*(?:\$([A-Za-z0-9]+)|([A-Za-z0-9]+))\b[^🟩🟥🟨\n]*/gu;
+
+  const KNOWN_ANALYSTS = [
+    'BRAD INVESTMENTS', 'SHAI INVESTMENTS', 'ISRAEL INVESTMENTS',
+    'TAKINGFEES', 'ZONATRADES', 'SHOWTIME', 'LINK'
+  ];
+
+  function cleanAnalystName(raw) {
+    const s = String(raw).replace(/[♛*:`_]/g, '').trim().toUpperCase();
+    for (const a of KNOWN_ANALYSTS) {
+      if (s.includes(a)) return a;
+    }
+    return s;
+  }
 
   // Format 1 (Mordy / Standard Swinger): Total Trades: 9 Today's Winrate: 66.67% Total Gains: +335.01% ...
   const FOOTER_STD_RE = /Total Trades:\s*(\d+)\s*Today'?s Win\s*rate:\s*([\d.]+)%\s*Total Gains:\s*([+-]?[\d,]+\.\d+)%\s*Average Gains Per Call:\s*([+-]?[\d,]+\.\d+)%\s*Total Profits:\s*(-?\$?[\d,]+\.\d+)/i;
@@ -154,11 +171,12 @@
     let parsedCount = 0;
 
     let m;
+    // Tier 1: Full dollar regex ($TICKER @ entry --> exit | +pct% | $dollar)
     const fullRe = new RegExp(TRADE_FULL_RE);
     while ((m = fullRe.exec(sub)) !== null) {
       const [, marker, ticker, , entry, exitp, pct, dollar] = m;
       trades.push({
-        date: dateIso, analyst, ticker,
+        date: dateIso, analyst, ticker: ticker.toUpperCase(),
         win: marker === '🟩',
         entry: num(entry), exit: num(exitp),
         pct: num(pct), dollar: num(dollar)
@@ -167,41 +185,89 @@
       markConsumed(consumed, m.index, m.index + m[0].length);
     }
 
+    // Tier 2: No-dollar ($TICKER @ entry --> exit | +pct%)
     let remaining = blankConsumed(sub, consumed);
     const noDollarRe = new RegExp(TRADE_NODOLLAR_RE);
     while ((m = noDollarRe.exec(remaining)) !== null) {
       const [, marker, ticker, , entry, exitp, pct] = m;
       trades.push({
-        date: dateIso, analyst, ticker,
+        date: dateIso, analyst, ticker: ticker.toUpperCase(),
         win: marker === '🟩',
         entry: num(entry), exit: num(exitp),
-        pct: num(pct), dollar: null
+        pct: num(pct), dollar: Math.round(num(pct) * 100) / 100
       });
       parsedCount += 1;
       markConsumed(consumed, m.index, m.index + m[0].length);
     }
 
+    // Tier 3: Bare format ($TICKER | +pct%)
     let remaining2 = blankConsumed(sub, consumed);
     const bareRe = new RegExp(TRADE_BARE_RE);
     while ((m = bareRe.exec(remaining2)) !== null) {
       const [, marker, ticker, pct] = m;
       trades.push({
-        date: dateIso, analyst, ticker,
+        date: dateIso, analyst, ticker: ticker.toUpperCase(),
         win: marker === '🟩',
         entry: null, exit: null,
-        pct: num(pct), dollar: null
+        pct: num(pct), dollar: Math.round(num(pct) * 100) / 100
       });
       parsedCount += 1;
       markConsumed(consumed, m.index, m.index + m[0].length);
     }
 
-    // Integrity check independent of which tier matched: every real trade
-    // line starts with a win/loss marker, so if this chunk has more of those
-    // markers than we ended up pushing trades for, something didn't match
-    // any of the three patterns above and got silently dropped -- a format
-    // drift (typo, new emoji variant, unusual spacing) rather than a bug we
-    // can "fix" in advance. Surfacing the gap beats pretending it's not there.
-    const markerCount = (sub.match(/🟩|🟥/gu) || []).length;
+    // Tier 4: Showtime format with %
+    let remaining3 = blankConsumed(sub, consumed);
+    const stPctRe = new RegExp(TRADE_SHOWTIME_PCT_RE);
+    while ((m = stPctRe.exec(remaining3)) !== null) {
+      const marker = m[1];
+      const ticker = (m[2] || m[3] || 'CALL').toUpperCase();
+      const pct = num(m[4]);
+      const chunkText = m[0];
+      const prices = chunkText.match(/@\s*\$?([\d.]+)/g) || [];
+      const entry = prices.length ? num(prices[0].replace(/@\s*\$?/, '')) : null;
+      trades.push({
+        date: dateIso, analyst, ticker,
+        win: marker === '🟩' || pct > 0,
+        entry, exit: null,
+        pct, dollar: Math.round(pct * 100) / 100
+      });
+      parsedCount += 1;
+      markConsumed(consumed, m.index, m.index + m[0].length);
+    }
+
+    // Tier 5: Showtime format with descriptive outcome (loss, breakeven, small gain, trim)
+    let remaining4 = blankConsumed(sub, consumed);
+    const stTextRe = new RegExp(TRADE_SHOWTIME_TEXT_RE);
+    while ((m = stTextRe.exec(remaining4)) !== null) {
+      const marker = m[1];
+      const ticker = (m[2] || m[3] || 'CALL').toUpperCase();
+      const lineText = m[0].toLowerCase();
+      let pct = 0;
+      let win = false;
+      if (lineText.includes('small gain') || lineText.includes('gain') || lineText.includes('tp hit')) {
+        pct = 15; win = true;
+      } else if (lineText.includes('loss') || lineText.includes('stop out') || lineText.includes('stop loss')) {
+        pct = -20; win = false;
+      } else if (lineText.includes('breakeven') || lineText.includes('be exit') || lineText.includes('at be')) {
+        pct = 0; win = false;
+      } else if (marker === '🟩') {
+        pct = 20; win = true;
+      } else if (marker === '🟥') {
+        pct = -20; win = false;
+      } else {
+        pct = 0; win = false;
+      }
+      trades.push({
+        date: dateIso, analyst, ticker,
+        win,
+        entry: null, exit: null,
+        pct, dollar: Math.round(pct * 100) / 100
+      });
+      parsedCount += 1;
+      markConsumed(consumed, m.index, m.index + m[0].length);
+    }
+
+    const markerCount = (sub.match(/🟩|🟥|🟨/gu) || []).length;
     return { markerCount, parsedCount };
   }
 
@@ -225,7 +291,7 @@
       let hm;
       const headerRe = new RegExp(CALL_HEADER_RE);
       while ((hm = headerRe.exec(chunk)) !== null) {
-        headerMatches.push({ index: hm.index, end: headerRe.lastIndex, analyst: hm[1].trim() });
+        headerMatches.push({ index: hm.index, end: headerRe.lastIndex, analyst: cleanAnalystName(hm[1]) });
       }
       for (let i = 0; i < headerMatches.length; i++) {
         const start = headerMatches[i].end;
@@ -809,4 +875,5 @@
     encodeScenario, decodeScenario, dedupeKey, toFlatText, validateParse
   };
   global.SwingerParser = global.MordyParser;
+  global.ShowtimeParser = global.MordyParser;
 })(typeof window !== 'undefined' ? window : globalThis);

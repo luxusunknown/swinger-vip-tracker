@@ -4,7 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mr. Swinger VIP — Analyst Tracker</title>
-<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="wrap">
@@ -16,6 +19,7 @@
         <div class="sub" id="rangeNote">Loading…</div>
       </div>
       <div class="top-actions">
+        <button id="themeToggleBtn" class="ghost" title="Toggle light/dark theme" style="font-size:1.1rem;padding:0.4rem 0.6rem;">🌙</button>
         <button id="adminOpenBtn" class="ghost admin-toggle">Admin</button>
       </div>
     </div>
@@ -248,5 +252,23 @@
 
 <script src="parser.js"></script>
 <script src="app.js"></script>
+
+  <script id="theme-toggle-script">
+    (function(){
+      const btn = document.getElementById("themeToggleBtn");
+      if(!btn) return;
+      const saved = localStorage.getItem("theme");
+      if(saved === "light") {
+        document.body.classList.add("light");
+        btn.textContent = "☀️";
+      }
+      btn.addEventListener("click", () => {
+        document.body.classList.toggle("light");
+        const isLight = document.body.classList.contains("light");
+        btn.textContent = isLight ? "☀️" : "🌙";
+        localStorage.setItem("theme", isLight ? "light" : "dark");
+      });
+    })();
+  </script>
 </body>
 </html>
