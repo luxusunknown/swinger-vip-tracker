@@ -1429,6 +1429,106 @@
    "exit": 6.48,
    "pct": 35,
    "dollar": 168
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.83,
+   "exit": 5.4,
+   "pct": 550.6,
+   "dollar": 457
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "CLUTCH",
+   "ticker": "TSLA",
+   "win": true,
+   "entry": 1.05,
+   "exit": 1.89,
+   "pct": 80,
+   "dollar": 84
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "CLUTCH",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 0.85,
+   "exit": 1.4,
+   "pct": 65,
+   "dollar": 55.25
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "CLUTCH",
+   "ticker": "WDC",
+   "win": true,
+   "entry": 2.3,
+   "exit": 3.22,
+   "pct": 40,
+   "dollar": 92
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "SWINGER",
+   "ticker": "PANW",
+   "win": true,
+   "entry": 10.3,
+   "exit": 18.02,
+   "pct": 75,
+   "dollar": 772.5
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "SHOWTIME",
+   "ticker": "AAOI",
+   "win": true,
+   "entry": 1.94,
+   "exit": 0.75,
+   "pct": 61.34,
+   "dollar": 119
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "SCOTT",
+   "ticker": "WMT",
+   "win": false,
+   "entry": 0.95,
+   "exit": 0.85,
+   "pct": -10,
+   "dollar": -9.5
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "SCOTT",
+   "ticker": "JNJ",
+   "win": false,
+   "entry": 4,
+   "exit": 3.4,
+   "pct": -15,
+   "dollar": -60
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "SCOTT",
+   "ticker": "SLV",
+   "win": false,
+   "entry": 1.14,
+   "exit": 0.57,
+   "pct": -50,
+   "dollar": -57
+  },
+  {
+   "date": "2026-09-23",
+   "analyst": "SCOTT",
+   "ticker": "APP",
+   "win": false,
+   "entry": 4,
+   "exit": 0.6,
+   "pct": -85,
+   "dollar": -340
   }
  ],
  "dailySummaries": [
@@ -1615,6 +1715,14 @@
    "totalGainsPct": 85.48,
    "avgGainsPct": 42.74,
    "totalProfit": 693
+  },
+  {
+   "date": "2026-09-23",
+   "totalTrades": 10,
+   "winRate": 60,
+   "totalGainsPct": 711.94,
+   "avgGainsPct": 71.19,
+   "totalProfit": 1113.25
   }
  ]
 }
