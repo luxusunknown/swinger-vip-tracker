@@ -1529,6 +1529,66 @@
    "exit": 0.6,
    "pct": -85,
    "dollar": -340
+  },
+  {
+   "date": "2026-09-25",
+   "analyst": "SCOTT",
+   "ticker": "MU",
+   "win": true,
+   "entry": 2.29,
+   "exit": 4.58,
+   "pct": 100,
+   "dollar": 229
+  },
+  {
+   "date": "2026-09-25",
+   "analyst": "SCOTT",
+   "ticker": "S",
+   "win": false,
+   "entry": 0.95,
+   "exit": 0.52,
+   "pct": -45,
+   "dollar": -42.75
+  },
+  {
+   "date": "2026-09-25",
+   "analyst": "SWINGER",
+   "ticker": "NVDA",
+   "win": false,
+   "entry": 3.7,
+   "exit": 3.11,
+   "pct": -16,
+   "dollar": -59.2
+  },
+  {
+   "date": "2026-09-25",
+   "analyst": "SWINGER",
+   "ticker": "CIFR",
+   "win": false,
+   "entry": 1.3,
+   "exit": 0.84,
+   "pct": -35,
+   "dollar": -45.5
+  },
+  {
+   "date": "2026-09-25",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 1.02,
+   "exit": 0.83,
+   "pct": -18.63,
+   "dollar": -19
+  },
+  {
+   "date": "2026-09-25",
+   "analyst": "CLUTCH",
+   "ticker": "AMZN",
+   "win": false,
+   "entry": 1.88,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -188
   }
  ],
  "dailySummaries": [
@@ -1723,6 +1783,14 @@
    "totalGainsPct": 711.94,
    "avgGainsPct": 71.19,
    "totalProfit": 1113.25
+  },
+  {
+   "date": "2026-09-25",
+   "totalTrades": 6,
+   "winRate": 16.67,
+   "totalGainsPct": -114.63,
+   "avgGainsPct": -19.1,
+   "totalProfit": -125.45
   }
  ]
 }
