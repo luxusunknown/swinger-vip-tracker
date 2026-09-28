@@ -1589,6 +1589,66 @@
    "exit": 0,
    "pct": -100,
    "dollar": -188
+  },
+  {
+   "date": "2026-09-28",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.04,
+   "exit": 3.64,
+   "pct": 250,
+   "dollar": 260
+  },
+  {
+   "date": "2026-09-28",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 1.28,
+   "exit": 0.94,
+   "pct": -26.56,
+   "dollar": -34
+  },
+  {
+   "date": "2026-09-28",
+   "analyst": "SHOWTIME",
+   "ticker": "MRVL",
+   "win": true,
+   "entry": 1.21,
+   "exit": 0.15,
+   "pct": 87.6,
+   "dollar": 106
+  },
+  {
+   "date": "2026-09-28",
+   "analyst": "SCOTT",
+   "ticker": "IONQ",
+   "win": true,
+   "entry": 1.55,
+   "exit": 2.33,
+   "pct": 50,
+   "dollar": 77.5
+  },
+  {
+   "date": "2026-09-28",
+   "analyst": "SCOTT",
+   "ticker": "CLF",
+   "win": false,
+   "entry": 0.54,
+   "exit": 0.19,
+   "pct": -65,
+   "dollar": -35.1
+  },
+  {
+   "date": "2026-09-28",
+   "analyst": "SWINGER",
+   "ticker": "SLV",
+   "win": false,
+   "entry": 1.4,
+   "exit": 0.35,
+   "pct": -75,
+   "dollar": -105
   }
  ],
  "dailySummaries": [
@@ -1791,6 +1851,14 @@
    "totalGainsPct": -114.63,
    "avgGainsPct": -19.1,
    "totalProfit": -125.45
+  },
+  {
+   "date": "2026-09-28",
+   "totalTrades": 6,
+   "winRate": 50,
+   "totalGainsPct": 221.04,
+   "avgGainsPct": 36.84,
+   "totalProfit": 269.4
   }
  ]
 }
