@@ -1649,6 +1649,26 @@
    "exit": 0.35,
    "pct": -75,
    "dollar": -105
+  },
+  {
+   "date": "2026-09-29",
+   "analyst": "SHOWTIME",
+   "ticker": "META",
+   "win": true,
+   "entry": 2.36,
+   "exit": 1,
+   "pct": 57.63,
+   "dollar": 136
+  },
+  {
+   "date": "2026-09-29",
+   "analyst": "SCOTT",
+   "ticker": "JNJ",
+   "win": false,
+   "entry": 4.75,
+   "exit": 3.09,
+   "pct": -35,
+   "dollar": -166.25
   }
  ],
  "dailySummaries": [
@@ -1859,6 +1879,14 @@
    "totalGainsPct": 221.04,
    "avgGainsPct": 36.84,
    "totalProfit": 269.4
+  },
+  {
+   "date": "2026-09-29",
+   "totalTrades": 2,
+   "winRate": 50,
+   "totalGainsPct": 22.63,
+   "avgGainsPct": 11.31,
+   "totalProfit": -30.25
   }
  ]
 }
