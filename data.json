@@ -1669,6 +1669,46 @@
    "exit": 3.09,
    "pct": -35,
    "dollar": -166.25
+  },
+  {
+   "date": "2026-09-30",
+   "analyst": "SHOWTIME",
+   "ticker": "AMD",
+   "win": true,
+   "entry": 1.95,
+   "exit": 1.09,
+   "pct": 44.1,
+   "dollar": 86
+  },
+  {
+   "date": "2026-09-30",
+   "analyst": "SWINGER",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 1.4,
+   "exit": 1.75,
+   "pct": 25,
+   "dollar": 35
+  },
+  {
+   "date": "2026-09-30",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.96,
+   "exit": 1.11,
+   "pct": 15.63,
+   "dollar": 15
+  },
+  {
+   "date": "2026-09-30",
+   "analyst": "SCOTT",
+   "ticker": "HOOD",
+   "win": false,
+   "entry": 4.35,
+   "exit": 2.17,
+   "pct": -50,
+   "dollar": -217.5
   }
  ],
  "dailySummaries": [
@@ -1887,6 +1927,14 @@
    "totalGainsPct": 22.63,
    "avgGainsPct": 11.31,
    "totalProfit": -30.25
+  },
+  {
+   "date": "2026-09-30",
+   "totalTrades": 4,
+   "winRate": 75,
+   "totalGainsPct": 34.73,
+   "avgGainsPct": 8.68,
+   "totalProfit": -81.5
   }
  ]
 }
