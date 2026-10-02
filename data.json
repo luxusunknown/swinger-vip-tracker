@@ -1759,6 +1759,36 @@
    "exit": 0.39,
    "pct": -70,
    "dollar": -90.3
+  },
+  {
+   "date": "2026-10-02",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 0.97,
+   "exit": 2.91,
+   "pct": 200,
+   "dollar": 194
+  },
+  {
+   "date": "2026-10-02",
+   "analyst": "SWINGER",
+   "ticker": "RKLB",
+   "win": true,
+   "entry": 2.25,
+   "exit": 4.05,
+   "pct": 80,
+   "dollar": 180
+  },
+  {
+   "date": "2026-10-02",
+   "analyst": "SCOTT",
+   "ticker": "IGV",
+   "win": true,
+   "entry": 3.9,
+   "exit": 5.46,
+   "pct": 40,
+   "dollar": 156
   }
  ],
  "dailySummaries": [
@@ -1993,6 +2023,14 @@
    "totalGainsPct": 96.75,
    "avgGainsPct": 19.35,
    "totalProfit": 294.2
+  },
+  {
+   "date": "2026-10-02",
+   "totalTrades": 3,
+   "winRate": 100,
+   "totalGainsPct": 320,
+   "avgGainsPct": 106.67,
+   "totalProfit": 530
   }
  ]
 }
