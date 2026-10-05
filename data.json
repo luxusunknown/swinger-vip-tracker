@@ -1789,6 +1789,56 @@
    "exit": 5.46,
    "pct": 40,
    "dollar": 156
+  },
+  {
+   "date": "2026-10-05",
+   "analyst": "CLUTCH",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.65,
+   "exit": 5.33,
+   "pct": 720,
+   "dollar": 468
+  },
+  {
+   "date": "2026-10-05",
+   "analyst": "SHOWTIME",
+   "ticker": "AMD",
+   "win": true,
+   "entry": 2.37,
+   "exit": 0.82,
+   "pct": 65.4,
+   "dollar": 155
+  },
+  {
+   "date": "2026-10-05",
+   "analyst": "SHOWTIME",
+   "ticker": "RKLB",
+   "win": true,
+   "entry": 1.14,
+   "exit": 0.42,
+   "pct": 63.16,
+   "dollar": 72
+  },
+  {
+   "date": "2026-10-05",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.29,
+   "exit": 1.94,
+   "pct": 50.39,
+   "dollar": 65
+  },
+  {
+   "date": "2026-10-05",
+   "analyst": "SWINGER",
+   "ticker": "VST",
+   "win": true,
+   "entry": 5.75,
+   "exit": 8.63,
+   "pct": 50,
+   "dollar": 287.5
   }
  ],
  "dailySummaries": [
@@ -2031,6 +2081,14 @@
    "totalGainsPct": 320,
    "avgGainsPct": 106.67,
    "totalProfit": 530
+  },
+  {
+   "date": "2026-10-05",
+   "totalTrades": 5,
+   "winRate": 100,
+   "totalGainsPct": 948.95,
+   "avgGainsPct": 189.79,
+   "totalProfit": 1047.5
   }
  ]
 }
