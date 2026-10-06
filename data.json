@@ -1839,6 +1839,96 @@
    "exit": 8.63,
    "pct": 50,
    "dollar": 287.5
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "SWINGER",
+   "ticker": "VST",
+   "win": true,
+   "entry": 5.75,
+   "exit": 18.69,
+   "pct": 225,
+   "dollar": 1293.75
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "SWINGER",
+   "ticker": "RKLB",
+   "win": true,
+   "entry": 2.25,
+   "exit": 4.5,
+   "pct": 100,
+   "dollar": 225
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "SWINGER",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 2.33,
+   "exit": 1.28,
+   "pct": -45,
+   "dollar": -104.85
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "SCOTT",
+   "ticker": "IGV",
+   "win": true,
+   "entry": 3.9,
+   "exit": 6.63,
+   "pct": 70,
+   "dollar": 273
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "SCOTT",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 5.47,
+   "exit": 7.38,
+   "pct": 35,
+   "dollar": 191.45
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "SCOTT",
+   "ticker": "SKHY",
+   "win": false,
+   "entry": 2.3,
+   "exit": 0.34,
+   "pct": -85,
+   "dollar": -195.5
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 10.39,
+   "exit": 3.98,
+   "pct": 61.69,
+   "dollar": 641
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "JAKE",
+   "ticker": "PLTR",
+   "win": true,
+   "entry": 3.25,
+   "exit": 4.55,
+   "pct": 40,
+   "dollar": 130
+  },
+  {
+   "date": "2026-10-06",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 0.78,
+   "exit": 0.55,
+   "pct": -29.49,
+   "dollar": -23
   }
  ],
  "dailySummaries": [
@@ -2089,6 +2179,14 @@
    "totalGainsPct": 948.95,
    "avgGainsPct": 189.79,
    "totalProfit": 1047.5
+  },
+  {
+   "date": "2026-10-06",
+   "totalTrades": 9,
+   "winRate": 66.67,
+   "totalGainsPct": 372.21,
+   "avgGainsPct": 41.36,
+   "totalProfit": 2430.85
   }
  ]
 }
