@@ -1929,6 +1929,66 @@
    "exit": 0.55,
    "pct": -29.49,
    "dollar": -23
+  },
+  {
+   "date": "2026-10-07",
+   "analyst": "SCOTT",
+   "ticker": "JNJ",
+   "win": true,
+   "entry": 1.6,
+   "exit": 2.88,
+   "pct": 80,
+   "dollar": 128
+  },
+  {
+   "date": "2026-10-07",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 2.15,
+   "exit": 0.72,
+   "pct": 66.51,
+   "dollar": 143
+  },
+  {
+   "date": "2026-10-07",
+   "analyst": "JAKE",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 3.3,
+   "exit": 4.95,
+   "pct": 50,
+   "dollar": 165
+  },
+  {
+   "date": "2026-10-07",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 0.8,
+   "exit": 0.59,
+   "pct": -26.25,
+   "dollar": -21
+  },
+  {
+   "date": "2026-10-07",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.01,
+   "exit": 1.22,
+   "pct": 20.79,
+   "dollar": 21
+  },
+  {
+   "date": "2026-10-07",
+   "analyst": "SWINGER",
+   "ticker": "HOOD",
+   "win": false,
+   "entry": 1.42,
+   "exit": 0.64,
+   "pct": -55,
+   "dollar": -78.1
   }
  ],
  "dailySummaries": [
@@ -2187,6 +2247,14 @@
    "totalGainsPct": 372.21,
    "avgGainsPct": 41.36,
    "totalProfit": 2430.85
+  },
+  {
+   "date": "2026-10-07",
+   "totalTrades": 6,
+   "winRate": 66.67,
+   "totalGainsPct": 136.05,
+   "avgGainsPct": 22.68,
+   "totalProfit": 357.9
   }
  ]
 }
