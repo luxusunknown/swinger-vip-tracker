@@ -1989,6 +1989,46 @@
    "exit": 0.64,
    "pct": -55,
    "dollar": -78.1
+  },
+  {
+   "date": "2026-10-08",
+   "analyst": "SHOWTIME",
+   "ticker": "MRVL",
+   "win": true,
+   "entry": 2.46,
+   "exit": 0.74,
+   "pct": 69.92,
+   "dollar": 172
+  },
+  {
+   "date": "2026-10-08",
+   "analyst": "SHOWTIME",
+   "ticker": "AMD",
+   "win": true,
+   "entry": 2.13,
+   "exit": 0.94,
+   "pct": 55.87,
+   "dollar": 119
+  },
+  {
+   "date": "2026-10-08",
+   "analyst": "SHOWTIME",
+   "ticker": "AAOI",
+   "win": true,
+   "entry": 5.75,
+   "exit": 3.4,
+   "pct": 40.87,
+   "dollar": 235
+  },
+  {
+   "date": "2026-10-08",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.93,
+   "exit": 1.31,
+   "pct": 40.86,
+   "dollar": 38
   }
  ],
  "dailySummaries": [
@@ -2255,6 +2295,14 @@
    "totalGainsPct": 136.05,
    "avgGainsPct": 22.68,
    "totalProfit": 357.9
+  },
+  {
+   "date": "2026-10-08",
+   "totalTrades": 4,
+   "winRate": 100,
+   "totalGainsPct": 207.52,
+   "avgGainsPct": 51.88,
+   "totalProfit": 564
   }
  ]
 }
