@@ -2089,6 +2089,26 @@
    "exit": 5.3,
    "pct": 20,
    "dollar": 88.4
+  },
+  {
+   "date": "2026-10-12",
+   "analyst": "CLUTCH",
+   "ticker": "MSFT",
+   "win": true,
+   "entry": 0.4,
+   "exit": 1.3,
+   "pct": 225,
+   "dollar": 90
+  },
+  {
+   "date": "2026-10-12",
+   "analyst": "SWINGER",
+   "ticker": "AVGO",
+   "win": false,
+   "entry": 6.1,
+   "exit": 2.13,
+   "pct": -65,
+   "dollar": -396.5
   }
  ],
  "dailySummaries": [
@@ -2371,6 +2391,14 @@
    "totalGainsPct": 216,
    "avgGainsPct": 36,
    "totalProfit": 417.5
+  },
+  {
+   "date": "2026-10-12",
+   "totalTrades": 2,
+   "winRate": 50,
+   "totalGainsPct": 160,
+   "avgGainsPct": 80,
+   "totalProfit": -306.5
   }
  ]
 }
