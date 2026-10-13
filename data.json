@@ -2109,6 +2109,36 @@
    "exit": 2.13,
    "pct": -65,
    "dollar": -396.5
+  },
+  {
+   "date": "2026-10-13",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 0.72,
+   "exit": 1.23,
+   "pct": 70.83,
+   "dollar": 51
+  },
+  {
+   "date": "2026-10-13",
+   "analyst": "JAKE",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.63,
+   "exit": 0.5,
+   "pct": -20.63,
+   "dollar": -13
+  },
+  {
+   "date": "2026-10-13",
+   "analyst": "JAKE",
+   "ticker": "AVGO",
+   "win": false,
+   "entry": 3.1,
+   "exit": 0.64,
+   "pct": -79.35,
+   "dollar": -246
   }
  ],
  "dailySummaries": [
@@ -2399,6 +2429,14 @@
    "totalGainsPct": 160,
    "avgGainsPct": 80,
    "totalProfit": -306.5
+  },
+  {
+   "date": "2026-10-13",
+   "totalTrades": 3,
+   "winRate": 33.33,
+   "totalGainsPct": -29.16,
+   "avgGainsPct": -9.72,
+   "totalProfit": -208
   }
  ]
 }
