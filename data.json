@@ -2239,6 +2239,106 @@
    "exit": 2.5,
    "pct": -35,
    "dollar": -134.75
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "CLUTCH",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.41,
+   "exit": 9.63,
+   "pct": 2250,
+   "dollar": 922.5
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.85,
+   "exit": 8.01,
+   "pct": 842.35,
+   "dollar": 716
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "JAKE",
+   "ticker": "CRM",
+   "win": true,
+   "entry": 4.45,
+   "exit": 9.03,
+   "pct": 102.92,
+   "dollar": 458
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 0.88,
+   "exit": 0.63,
+   "pct": -28.41,
+   "dollar": -25
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 1.07,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -107
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "SCOTT",
+   "ticker": "AXP",
+   "win": true,
+   "entry": 3.3,
+   "exit": 4.29,
+   "pct": 30,
+   "dollar": 99
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "SCOTT",
+   "ticker": "NBIS",
+   "win": false,
+   "entry": 3.6,
+   "exit": 1.62,
+   "pct": -55,
+   "dollar": -198
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "SWINGER",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 1.3,
+   "exit": 0.65,
+   "pct": -50,
+   "dollar": -65
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "SWINGER",
+   "ticker": "HOOD",
+   "win": false,
+   "entry": 1.14,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -114
+  },
+  {
+   "date": "2026-10-16",
+   "analyst": "SWINGER",
+   "ticker": "MSTR",
+   "win": false,
+   "entry": 2.3,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -230
   }
  ],
  "dailySummaries": [
@@ -2553,6 +2653,14 @@
    "totalGainsPct": 865.77,
    "avgGainsPct": 173.15,
    "totalProfit": 866.75
+  },
+  {
+   "date": "2026-10-16",
+   "totalTrades": 10,
+   "winRate": 40,
+   "totalGainsPct": 2791.87,
+   "avgGainsPct": 279.19,
+   "totalProfit": 1456.5
   }
  ]
 }
