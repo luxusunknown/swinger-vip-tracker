@@ -2339,6 +2339,36 @@
    "exit": 0,
    "pct": -100,
    "dollar": -230
+  },
+  {
+   "date": "2026-10-19",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 0.89,
+   "exit": 3.56,
+   "pct": 300,
+   "dollar": 267
+  },
+  {
+   "date": "2026-10-19",
+   "analyst": "SWINGER",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.6,
+   "exit": 3.6,
+   "pct": 125,
+   "dollar": 200
+  },
+  {
+   "date": "2026-10-19",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 1.12,
+   "exit": 0.7,
+   "pct": -37.5,
+   "dollar": -42
   }
  ],
  "dailySummaries": [
@@ -2661,6 +2691,14 @@
    "totalGainsPct": 2791.87,
    "avgGainsPct": 279.19,
    "totalProfit": 1456.5
+  },
+  {
+   "date": "2026-10-19",
+   "totalTrades": 3,
+   "winRate": 66.67,
+   "totalGainsPct": 387.5,
+   "avgGainsPct": 129.17,
+   "totalProfit": 425
   }
  ]
 }
