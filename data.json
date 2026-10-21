@@ -2419,6 +2419,76 @@
    "exit": 0,
    "pct": -100,
    "dollar": -55
+  },
+  {
+   "date": "2026-10-21",
+   "analyst": "SWINGER",
+   "ticker": "MSTR",
+   "win": true,
+   "entry": 2.92,
+   "exit": 15.04,
+   "pct": 415,
+   "dollar": 1211.8
+  },
+  {
+   "date": "2026-10-21",
+   "analyst": "CLUTCH",
+   "ticker": "NVDA",
+   "win": true,
+   "entry": 0.56,
+   "exit": 2.52,
+   "pct": 350,
+   "dollar": 196
+  },
+  {
+   "date": "2026-10-21",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 0.95,
+   "exit": 0.26,
+   "pct": 72.63,
+   "dollar": 69
+  },
+  {
+   "date": "2026-10-21",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.16,
+   "exit": 1.52,
+   "pct": 31.03,
+   "dollar": 36
+  },
+  {
+   "date": "2026-10-21",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": false,
+   "entry": 0.88,
+   "exit": 0.5,
+   "pct": -43.18,
+   "dollar": -38
+  },
+  {
+   "date": "2026-10-21",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.75,
+   "exit": 0.6,
+   "pct": -20,
+   "dollar": -15
+  },
+  {
+   "date": "2026-10-21",
+   "analyst": "SCOTT",
+   "ticker": "UBER",
+   "win": false,
+   "entry": 1.22,
+   "exit": 0.49,
+   "pct": -60,
+   "dollar": -73.2
   }
  ],
  "dailySummaries": [
@@ -2757,6 +2827,14 @@
    "totalGainsPct": 89.64,
    "avgGainsPct": 17.93,
    "totalProfit": 338.8
+  },
+  {
+   "date": "2026-10-21",
+   "totalTrades": 7,
+   "winRate": 57.14,
+   "totalGainsPct": 745.48,
+   "avgGainsPct": 106.5,
+   "totalProfit": 1386.6
   }
  ]
 }
