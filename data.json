@@ -2659,6 +2659,26 @@
    "exit": 1.46,
    "pct": 30.36,
    "dollar": 34
+  },
+  {
+   "date": "2026-10-27",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.69,
+   "exit": 1.21,
+   "pct": 75.36,
+   "dollar": 52
+  },
+  {
+   "date": "2026-10-27",
+   "analyst": "CLUTCH",
+   "ticker": "SPCX",
+   "win": true,
+   "entry": 1.96,
+   "exit": 2.74,
+   "pct": 40,
+   "dollar": 78.4
   }
  ],
  "dailySummaries": [
@@ -3029,6 +3049,14 @@
    "totalGainsPct": 227.71,
    "avgGainsPct": 56.93,
    "totalProfit": 203
+  },
+  {
+   "date": "2026-10-27",
+   "totalTrades": 2,
+   "winRate": 100,
+   "totalGainsPct": 115.36,
+   "avgGainsPct": 57.68,
+   "totalProfit": 130.4
   }
  ]
 }
