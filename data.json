@@ -2679,6 +2679,16 @@
    "exit": 2.74,
    "pct": 40,
    "dollar": 78.4
+  },
+  {
+   "date": "2026-10-28",
+   "analyst": "SCOTT",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 1.05,
+   "exit": 1.35,
+   "pct": -28.57,
+   "dollar": -30
   }
  ],
  "dailySummaries": [
@@ -3057,6 +3067,14 @@
    "totalGainsPct": 115.36,
    "avgGainsPct": 57.68,
    "totalProfit": 130.4
+  },
+  {
+   "date": "2026-10-28",
+   "totalTrades": 1,
+   "winRate": 0,
+   "totalGainsPct": -28.57,
+   "avgGainsPct": -28.57,
+   "totalProfit": -30
   }
  ]
 }
