@@ -2729,6 +2729,86 @@
    "exit": 0.65,
    "pct": -36.89,
    "dollar": -38
+  },
+  {
+   "date": "2026-10-30",
+   "analyst": "CLUTCH",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 1.39,
+   "exit": 15.29,
+   "pct": 1000,
+   "dollar": 1390
+  },
+  {
+   "date": "2026-10-30",
+   "analyst": "CLUTCH",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 0.79,
+   "exit": 1.11,
+   "pct": 40,
+   "dollar": 31.6
+  },
+  {
+   "date": "2026-10-30",
+   "analyst": "CLUTCH",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 0.82,
+   "exit": 1.09,
+   "pct": 33,
+   "dollar": 27.06
+  },
+  {
+   "date": "2026-10-30",
+   "analyst": "CLUTCH",
+   "ticker": "TSLA",
+   "win": false,
+   "entry": 1,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -100
+  },
+  {
+   "date": "2026-10-30",
+   "analyst": "JAKE",
+   "ticker": "SPX",
+   "win": true,
+   "entry": 1.33,
+   "exit": 10,
+   "pct": 651.88,
+   "dollar": 867
+  },
+  {
+   "date": "2026-10-30",
+   "analyst": "SWINGER",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 5.95,
+   "exit": 30,
+   "pct": 404.2,
+   "dollar": 2405
+  },
+  {
+   "date": "2026-10-30",
+   "analyst": "SHOWTIME",
+   "ticker": "ASTS",
+   "win": true,
+   "entry": 0.54,
+   "exit": 0,
+   "pct": 100,
+   "dollar": 54
+  },
+  {
+   "date": "2026-10-30",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.98,
+   "exit": 1.72,
+   "pct": 75.51,
+   "dollar": 74
   }
  ],
  "dailySummaries": [
@@ -3123,6 +3203,14 @@
    "totalGainsPct": 48.11,
    "avgGainsPct": 12.03,
    "totalProfit": 87.75
+  },
+  {
+   "date": "2026-10-30",
+   "totalTrades": 8,
+   "winRate": 87.5,
+   "totalGainsPct": 2204.59,
+   "avgGainsPct": 275.57,
+   "totalProfit": 4748.66
   }
  ]
 }
