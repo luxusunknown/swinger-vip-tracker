@@ -2809,6 +2809,66 @@
    "exit": 1.72,
    "pct": 75.51,
    "dollar": 74
+  },
+  {
+   "date": "2026-11-02",
+   "analyst": "JPM",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.15,
+   "exit": 13.8,
+   "pct": 1100,
+   "dollar": 1265
+  },
+  {
+   "date": "2026-11-02",
+   "analyst": "JAKE",
+   "ticker": "SPX",
+   "win": true,
+   "entry": 1.58,
+   "exit": 3.1,
+   "pct": 96.2,
+   "dollar": -152
+  },
+  {
+   "date": "2026-11-02",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 1.15,
+   "exit": 0.1,
+   "pct": 91.3,
+   "dollar": 105
+  },
+  {
+   "date": "2026-11-02",
+   "analyst": "SHOWTIME",
+   "ticker": "RKLB",
+   "win": true,
+   "entry": 0.66,
+   "exit": 0.06,
+   "pct": 90.91,
+   "dollar": 60
+  },
+  {
+   "date": "2026-11-02",
+   "analyst": "CLUTCH",
+   "ticker": "META",
+   "win": true,
+   "entry": 1.21,
+   "exit": 2.12,
+   "pct": 75,
+   "dollar": 90.75
+  },
+  {
+   "date": "2026-11-02",
+   "analyst": "CLUTCH",
+   "ticker": "META",
+   "win": true,
+   "entry": 4.25,
+   "exit": 6.38,
+   "pct": 50,
+   "dollar": 212.5
   }
  ],
  "dailySummaries": [
@@ -3211,6 +3271,14 @@
    "totalGainsPct": 2204.59,
    "avgGainsPct": 275.57,
    "totalProfit": 4748.66
+  },
+  {
+   "date": "2026-11-02",
+   "totalTrades": 6,
+   "winRate": 100,
+   "totalGainsPct": 1503.42,
+   "avgGainsPct": 250.57,
+   "totalProfit": 1581.25
   }
  ]
 }
