@@ -2949,6 +2949,46 @@
    "exit": 0.87,
    "pct": -28.69,
    "dollar": -35
+  },
+  {
+   "date": "2026-11-05",
+   "analyst": "CLUTCH",
+   "ticker": "LRCX",
+   "win": true,
+   "entry": 1.85,
+   "exit": 20.35,
+   "pct": 1000,
+   "dollar": 1850
+  },
+  {
+   "date": "2026-11-05",
+   "analyst": "JAKE",
+   "ticker": "SPX",
+   "win": true,
+   "entry": 1.68,
+   "exit": 2.35,
+   "pct": 40,
+   "dollar": 67.2
+  },
+  {
+   "date": "2026-11-05",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.7,
+   "exit": 2.26,
+   "pct": 32.94,
+   "dollar": 56
+  },
+  {
+   "date": "2026-11-05",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 1.12,
+   "exit": 0.68,
+   "pct": -39.29,
+   "dollar": -44
   }
  ],
  "dailySummaries": [
@@ -3375,6 +3415,14 @@
    "totalGainsPct": 295.46,
    "avgGainsPct": 73.87,
    "totalProfit": 253.54
+  },
+  {
+   "date": "2026-11-05",
+   "totalTrades": 4,
+   "winRate": 75,
+   "totalGainsPct": 1033.66,
+   "avgGainsPct": 258.41,
+   "totalProfit": 1929.2
   }
  ]
 }
