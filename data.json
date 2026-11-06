@@ -2989,6 +2989,46 @@
    "exit": 0.68,
    "pct": -39.29,
    "dollar": -44
+  },
+  {
+   "date": "2026-11-06",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 2.08,
+   "exit": 3.13,
+   "pct": 50.48,
+   "dollar": 105
+  },
+  {
+   "date": "2026-11-06",
+   "analyst": "JAKE",
+   "ticker": "SPX",
+   "win": false,
+   "entry": 1.18,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -118
+  },
+  {
+   "date": "2026-11-06",
+   "analyst": "CLUTCH",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 1.25,
+   "exit": 1.88,
+   "pct": 50,
+   "dollar": 62.5
+  },
+  {
+   "date": "2026-11-06",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 1.48,
+   "exit": 1.98,
+   "pct": 33.78,
+   "dollar": 50
   }
  ],
  "dailySummaries": [
@@ -3423,6 +3463,14 @@
    "totalGainsPct": 1033.66,
    "avgGainsPct": 258.41,
    "totalProfit": 1929.2
+  },
+  {
+   "date": "2026-11-06",
+   "totalTrades": 4,
+   "winRate": 75,
+   "totalGainsPct": 34.26,
+   "avgGainsPct": 8.57,
+   "totalProfit": 99.5
   }
  ]
 }
