@@ -3029,6 +3029,36 @@
    "exit": 1.98,
    "pct": 33.78,
    "dollar": 50
+  },
+  {
+   "date": "2026-11-09",
+   "analyst": "SWINGER",
+   "ticker": "GLD",
+   "win": true,
+   "entry": 6,
+   "exit": 8.95,
+   "pct": 49.17,
+   "dollar": 295
+  },
+  {
+   "date": "2026-11-09",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 1.32,
+   "exit": 1.18,
+   "pct": -10.61,
+   "dollar": -14
+  },
+  {
+   "date": "2026-11-09",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.99,
+   "exit": 0.63,
+   "pct": -36.36,
+   "dollar": -36
   }
  ],
  "dailySummaries": [
@@ -3471,6 +3501,14 @@
    "totalGainsPct": 34.26,
    "avgGainsPct": 8.57,
    "totalProfit": 99.5
+  },
+  {
+   "date": "2026-11-09",
+   "totalTrades": 3,
+   "winRate": 33.33,
+   "totalGainsPct": 2.2,
+   "avgGainsPct": 0.73,
+   "totalProfit": 245
   }
  ]
 }
