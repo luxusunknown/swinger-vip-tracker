@@ -3059,6 +3059,46 @@
    "exit": 0.63,
    "pct": -36.36,
    "dollar": -36
+  },
+  {
+   "date": "2026-11-10",
+   "analyst": "CLUTCH",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 0.85,
+   "exit": 2.72,
+   "pct": 220,
+   "dollar": 187
+  },
+  {
+   "date": "2026-11-10",
+   "analyst": "SHOWTIME",
+   "ticker": "RKLB",
+   "win": true,
+   "entry": 1.05,
+   "exit": 0.44,
+   "pct": 58.1,
+   "dollar": 61
+  },
+  {
+   "date": "2026-11-10",
+   "analyst": "SHOWTIME",
+   "ticker": "SOXL",
+   "win": true,
+   "entry": 13.73,
+   "exit": 6.65,
+   "pct": 51.57,
+   "dollar": 708
+  },
+  {
+   "date": "2026-11-10",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.27,
+   "exit": 1.52,
+   "pct": 19.69,
+   "dollar": 25
   }
  ],
  "dailySummaries": [
@@ -3509,6 +3549,14 @@
    "totalGainsPct": 2.2,
    "avgGainsPct": 0.73,
    "totalProfit": 245
+  },
+  {
+   "date": "2026-11-10",
+   "totalTrades": 4,
+   "winRate": 100,
+   "totalGainsPct": 349.35,
+   "avgGainsPct": 87.34,
+   "totalProfit": 981
   }
  ]
 }
