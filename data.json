@@ -3099,6 +3099,66 @@
    "exit": 1.52,
    "pct": 19.69,
    "dollar": 25
+  },
+  {
+   "date": "2026-11-11",
+   "analyst": "JAKE",
+   "ticker": "QQQ",
+   "win": true,
+   "entry": 1.38,
+   "exit": 8.2,
+   "pct": 494.2,
+   "dollar": 682
+  },
+  {
+   "date": "2026-11-11",
+   "analyst": "CLUTCH",
+   "ticker": "NVDA",
+   "win": true,
+   "entry": 1,
+   "exit": 2.5,
+   "pct": 150,
+   "dollar": 150
+  },
+  {
+   "date": "2026-11-11",
+   "analyst": "CLUTCH",
+   "ticker": "TSLA",
+   "win": true,
+   "entry": 0.85,
+   "exit": 1.08,
+   "pct": 27,
+   "dollar": 22.95
+  },
+  {
+   "date": "2026-11-11",
+   "analyst": "SHOWTIME",
+   "ticker": "NBIS",
+   "win": true,
+   "entry": 20.48,
+   "exit": 4.8,
+   "pct": 76.56,
+   "dollar": 1568
+  },
+  {
+   "date": "2026-11-11",
+   "analyst": "SHOWTIME",
+   "ticker": "MU",
+   "win": true,
+   "entry": 675.98,
+   "exit": 790.9,
+   "pct": 17,
+   "dollar": 114.92
+  },
+  {
+   "date": "2026-11-11",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.88,
+   "exit": 0.6,
+   "pct": -31.82,
+   "dollar": -28
   }
  ],
  "dailySummaries": [
@@ -3557,6 +3617,14 @@
    "totalGainsPct": 349.35,
    "avgGainsPct": 87.34,
    "totalProfit": 981
+  },
+  {
+   "date": "2026-11-11",
+   "totalTrades": 6,
+   "winRate": 83.33,
+   "totalGainsPct": 732.95,
+   "avgGainsPct": 122.16,
+   "totalProfit": 2509.87
   }
  ]
 }
