@@ -3179,6 +3179,56 @@
    "exit": 1.43,
    "pct": 40,
    "dollar": 40.8
+  },
+  {
+   "date": "2026-11-13",
+   "analyst": "SHOWTIME",
+   "ticker": "RKLB",
+   "win": true,
+   "entry": 0.61,
+   "exit": 0,
+   "pct": 100,
+   "dollar": 61
+  },
+  {
+   "date": "2026-11-13",
+   "analyst": "SCOTT",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 1.4,
+   "exit": 0.77,
+   "pct": 45,
+   "dollar": 63
+  },
+  {
+   "date": "2026-11-13",
+   "analyst": "SCOTT",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 2.75,
+   "exit": 3.3,
+   "pct": 20,
+   "dollar": 55
+  },
+  {
+   "date": "2026-11-13",
+   "analyst": "SCOTT",
+   "ticker": "ORCL",
+   "win": false,
+   "entry": 3.7,
+   "exit": 3.33,
+   "pct": -10,
+   "dollar": -37
+  },
+  {
+   "date": "2026-11-13",
+   "analyst": "SWINGER",
+   "ticker": "MSTR",
+   "win": false,
+   "entry": 2.45,
+   "exit": 0,
+   "pct": -100,
+   "dollar": -245
   }
  ],
  "dailySummaries": [
@@ -3653,6 +3703,14 @@
    "totalGainsPct": 290,
    "avgGainsPct": 145,
    "totalProfit": 275.8
+  },
+  {
+   "date": "2026-11-13",
+   "totalTrades": 5,
+   "winRate": 60,
+   "totalGainsPct": 55,
+   "avgGainsPct": 11,
+   "totalProfit": -103
   }
  ]
 }
