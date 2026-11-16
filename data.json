@@ -3229,6 +3229,46 @@
    "exit": 0,
    "pct": -100,
    "dollar": -245
+  },
+  {
+   "date": "2026-11-16",
+   "analyst": "SCOTT",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 2.75,
+   "exit": 5.36,
+   "pct": 95,
+   "dollar": 261.25
+  },
+  {
+   "date": "2026-11-16",
+   "analyst": "SCOTT",
+   "ticker": "META",
+   "win": false,
+   "entry": 5.3,
+   "exit": 2.92,
+   "pct": -45,
+   "dollar": -238.5
+  },
+  {
+   "date": "2026-11-16",
+   "analyst": "SCOTT",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 3.05,
+   "exit": 1.37,
+   "pct": -55,
+   "dollar": -167.75
+  },
+  {
+   "date": "2026-11-16",
+   "analyst": "CLUTCH",
+   "ticker": "AAPL",
+   "win": true,
+   "entry": 2.4,
+   "exit": 3.46,
+   "pct": 44,
+   "dollar": 105.6
   }
  ],
  "dailySummaries": [
@@ -3711,6 +3751,14 @@
    "totalGainsPct": 55,
    "avgGainsPct": 11,
    "totalProfit": -103
+  },
+  {
+   "date": "2026-11-16",
+   "totalTrades": 4,
+   "winRate": 50,
+   "totalGainsPct": 39,
+   "avgGainsPct": 9.75,
+   "totalProfit": -39.4
   }
  ]
 }
