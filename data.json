@@ -3269,6 +3269,16 @@
    "exit": 3.46,
    "pct": 44,
    "dollar": 105.6
+  },
+  {
+   "date": "2026-11-17",
+   "analyst": "SCOTT",
+   "ticker": "AMZN",
+   "win": true,
+   "entry": 2.75,
+   "exit": 7.97,
+   "pct": 190,
+   "dollar": 522.5
   }
  ],
  "dailySummaries": [
@@ -3759,6 +3769,14 @@
    "totalGainsPct": 39,
    "avgGainsPct": 9.75,
    "totalProfit": -39.4
+  },
+  {
+   "date": "2026-11-17",
+   "totalTrades": 1,
+   "winRate": 100,
+   "totalGainsPct": 190,
+   "avgGainsPct": 190,
+   "totalProfit": 522.5
   }
  ]
 }
