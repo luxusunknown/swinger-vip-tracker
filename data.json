@@ -3279,6 +3279,26 @@
    "exit": 7.97,
    "pct": 190,
    "dollar": 522.5
+  },
+  {
+   "date": "2026-11-18",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": true,
+   "entry": 1.4,
+   "exit": 3.01,
+   "pct": 115,
+   "dollar": 161
+  },
+  {
+   "date": "2026-11-18",
+   "analyst": "CLUTCH",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 1.1,
+   "exit": 0.55,
+   "pct": -50,
+   "dollar": -55
   }
  ],
  "dailySummaries": [
@@ -3777,6 +3797,14 @@
    "totalGainsPct": 190,
    "avgGainsPct": 190,
    "totalProfit": 522.5
+  },
+  {
+   "date": "2026-11-18",
+   "totalTrades": 2,
+   "winRate": 50,
+   "totalGainsPct": 65,
+   "avgGainsPct": 32.5,
+   "totalProfit": 106
   }
  ]
 }
