@@ -3299,6 +3299,16 @@
    "exit": 0.55,
    "pct": -50,
    "dollar": -55
+  },
+  {
+   "date": "2026-11-19",
+   "analyst": "SCOTT",
+   "ticker": "ANT",
+   "win": true,
+   "entry": 83,
+   "exit": 103.75,
+   "pct": 25,
+   "dollar": 20.75
   }
  ],
  "dailySummaries": [
@@ -3805,6 +3815,14 @@
    "totalGainsPct": 65,
    "avgGainsPct": 32.5,
    "totalProfit": 106
+  },
+  {
+   "date": "2026-11-19",
+   "totalTrades": 1,
+   "winRate": 100,
+   "totalGainsPct": 25,
+   "avgGainsPct": 25,
+   "totalProfit": 20.75
   }
  ]
 }
