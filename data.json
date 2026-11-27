@@ -3389,6 +3389,16 @@
    "exit": 2.35,
    "pct": 75.37,
    "dollar": 101
+  },
+  {
+   "date": "2026-11-27",
+   "analyst": "JPM",
+   "ticker": "SPY",
+   "win": false,
+   "entry": 0.92,
+   "exit": 0.44,
+   "pct": -52.17,
+   "dollar": -48
   }
  ],
  "dailySummaries": [
@@ -3927,6 +3937,14 @@
    "totalGainsPct": 339.2,
    "avgGainsPct": 169.6,
    "totalProfit": 998
+  },
+  {
+   "date": "2026-11-27",
+   "totalTrades": 1,
+   "winRate": 0,
+   "totalGainsPct": -52.17,
+   "avgGainsPct": -52.17,
+   "totalProfit": -48
   }
  ]
 }
